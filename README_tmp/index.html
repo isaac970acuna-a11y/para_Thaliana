@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tres en Raya</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Tres en Raya</h1>
+    <div id="gameArea">
+        <div id="board" class="board">
+            <!-- Las celdas se generarán con JS -->
+        </div>
+        <div id="message" class="message"></div>
+        <canvas id="confettiCanvas" style="position:fixed;top:0;left:0;width:100vw;height:100vh;pointer-events:none;z-index:999;display:none;"></canvas>
+        <button id="restartBtn" style="display:none;">Reiniciar</button>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
